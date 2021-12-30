@@ -1,0 +1,28 @@
+.groups textarea{
+    
+    width: 50%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+.us1main3{
+    margin-top: 30px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.us1main3 p{
+    
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+}
+.us1main3 img{
+ margin-bottom: 16px;
+}

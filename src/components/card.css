@@ -1,0 +1,127 @@
+.card{
+    margin-top: 34px;
+    margin-left:7px;
+    background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+}
+
+.card1 img{
+    width: 100%;
+    height: 220px;
+}
+.card1hi{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: IBM Plex Sans;
+font-style: normal;
+position: relative;
+
+}
+.card1hi h3{
+    margin-left: 7px;
+}
+.three-dots:after {
+    cursor: pointer;
+    color: #FCC;
+    content: '\2807';
+    font-size: 20px;
+    padding: 0 5px;
+  }
+  
+  a {
+    text-decoration: none !important;
+    color: white ;
+  }
+  
+  a div {
+    padding: 2px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    right: 10px;
+    background-color: wheat !important;
+    border: 1px solid #E0E0E0 !important;
+    
+    outline: none;
+    opacity: 0;
+    z-index: -1;
+    max-height: 0;
+    transition: opacity 0.1s, z-index 0.1s;
+  }
+  
+  .dropdown-container:focus {
+    outline: none;
+  }
+  
+  .dropdown-container:focus .dropdown {
+    opacity: 1;
+    z-index: 100;
+    max-height: 100vh;
+    transition: opacity 0.2s, z-index 0.2s;
+  }
+  .card p{
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 134.17%;
+    /* or 25px */
+    
+    
+    color: #5C5C5C;
+    margin-left: 7px;
+  }
+  .cardcirimg{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+  }
+  .cardcirimg h4{
+      margin-left: 20px;
+  }
+.card1hi2{
+margin-right: 10px;
+background: #EDEEF0;
+border-radius: 2px;
+}
+.card2website{
+    width: 652px;
+height: 38px;
+left: 220px;
+top: 1956px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px;
+margin-left: 10px;
+margin-right: 4px;
+padding: 7px;
+}
+.card2website h4
+{
+    text-align: center;
+    color: orangered;
+}
+@media(max-width:450px)
+{
+  .card{
+    width: 100% !important;
+
+  }
+  .card1 img{
+    width: 100%;
+  }
+  .card2website{
+    width: 100% !important;
+  }
+  .card1hi h3 {
+    margin-left: 7px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+}

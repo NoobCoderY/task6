@@ -1,0 +1,131 @@
+.us1h{
+    margin:10px ;
+}
+
+.us1nav{
+    margin-left: 7px;
+}
+.us1nav ul{
+    display: flex;
+}
+.us1nav2{
+    float: end;
+
+}
+.us1nav3{
+    margin-right: 245px;
+}
+.us1nav3 select{
+    margin-right: 40px;
+    background: #EDEEF0;
+border-radius: 4px;
+border: none;
+outline: none;
+width: 133px;
+padding: 6px;
+}
+.us1nav3 button{
+    background: #2F6CE5;
+border-radius: 4px;
+}
+.us1nav2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: -10px;
+}
+
+.us1nav li{
+   display: inline-block;
+   padding: 20px;
+}
+hr{
+    width: 80%;
+    margin: -11px;
+    margin-left:20px ;
+}
+.us1main{
+    display: flex;
+    
+
+}
+.us1main1{
+    flex-basis: 60%;
+}
+.us1main2{
+    flex-basis: 40%;
+}
+.us1img2{
+    width: 56%;
+  
+}
+.us2nav{
+    display: inline;
+}
+.us1main2{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.us1main2 textarea{
+    
+        width: 50%;
+        border: 0;
+        outline: 0;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+        resize: none;
+    }
+    .us1main3{
+        margin-top: 30px;
+        display: flex;
+        gap:20px;
+    }
+    .us1main3 p{
+        
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+    }
+    @media  (max-width:450px){
+        .us1nav li{
+            font-size: 15px;
+            padding: 25px 0px;
+        }
+        .us1nav .l1{
+            display: none;
+        }
+        .us1nav3 .l1{
+            display: none;
+        }
+        .us1nav3 select{
+            margin-bottom: 15px;
+        }
+        .us1nav2{
+            width: 100%;
+            padding: 0px;
+        }
+        .us1nav3{
+            margin: 0px;
+        }
+        hr{
+            width: 100%;
+        }
+        .us1main2{
+            display: none;
+        }
+        .us1img2{
+            width: 100%;
+        }
+        .us1main{
+            width: 100%;
+        }
+        .us1main1{
+            flex-basis: 100%;
+        }
+        
+    }
